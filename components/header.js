@@ -1,8 +1,8 @@
 import Link from "next/link";
 import styles from "./header.module.css";
-import utilStyles from "../styles/utils.module.css";
 import { useTheme } from "../contexts/ThemeContext";
-import { GoMoon, GoSun } from "react-icons/go";
+import { MdSunny } from "react-icons/md";
+import { FaMoon } from "react-icons/fa";
 import Latex from "react-latex-next";
 import "katex/dist/katex.min.css";
 
@@ -16,7 +16,7 @@ export default function Header({ home }) {
       <div className={styles.profileSection}>
         <Link href="/">
           <div className="logo">
-            <Latex>{"$\\mathbb{PC}$"}</Latex>
+            <Latex>{"$\\Sigma$"}</Latex>
           </div>
         </Link>
       </div>
@@ -37,8 +37,8 @@ export default function Header({ home }) {
             About
           </Link>
           <span className={styles.separator}>|</span>
-          <Link href="/blogs" className={styles.navLink}>
-            Blogs
+          <Link href="/favorites" className={styles.navLink}>
+            Favorites
           </Link>
         </nav>
       </div>
@@ -49,7 +49,7 @@ export default function Header({ home }) {
           className={styles.themeButton}
           aria-label="Toggle theme"
         >
-          {isDark ? <GoSun color="white" /> : <GoMoon />}
+          {isDark ? <MdSunny color="white" /> : <FaMoon />}
         </button>
       </div>
     </header>

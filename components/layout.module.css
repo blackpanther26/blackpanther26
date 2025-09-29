@@ -2,6 +2,8 @@
   max-width: 40rem;
   margin: 0 auto;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: var(--bg-primary);
   transition: background-color 0.3s ease;
 }
@@ -13,6 +15,7 @@
 }
 
 .main {
+  flex: 1;
   padding: 2rem 1.5rem;
 }
 
