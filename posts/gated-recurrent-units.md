@@ -3,6 +3,8 @@ title: 'Gated Recurrent Units: Architecture, Intuition, and Mathematical Analysi
 date: '2025-12-28'
 ---
 
+*Co-authored with [@chalhotra](https://github.com/chalhotra)*
+
 ## 1. Introduction
 
 Recurrent Neural Networks (RNNs) are designed to model sequential data by maintaining a hidden state that evolves over time. However, vanilla RNNs suffer from the well-known *vanishing gradient problem*, which makes learning long-term dependencies practically impossible.
@@ -308,3 +310,23 @@ $$
 GRUs do not solve vanishing gradients by improving nonlinearities. They solve it by **learning when not to apply them**.
 
 The update gate creates a learned identity path through time. If the network *wants* to remember something for 50 time steps, it simply learns to set the update gate to preserve the history, and the gradient flows back effortlessly. This single additive structure is the mathematical core of gated recurrent networks.
+
+---
+
+## Further Reading
+
+Want to dive deeper? Here are the resources that helped me build this understanding:
+
+### Deep Learning
+- **[Deep Learning for Computer Vision (UMich)](https://web.eecs.umich.edu/~justincj/teaching/eecs498/)** - Comprehensive course covering CNNs, RNNs, and modern architectures
+- **[CampusX Deep Learning](https://www.youtube.com/@campusx-official)** - Practical tutorials with clear explanations
+- **[Fast.ai](https://www.fast.ai/)** - Hands-on deep learning for practitioners
+
+### Machine Learning Fundamentals
+- **[StatQuest](https://www.youtube.com/@statquest)** - Breaking down complex ML and statistics concepts
+- **[3Blue1Brown](https://www.3blue1brown.com/)** - Beautiful visual explanations of mathematical concepts
+- **[Andrew Ng's ML Course](https://www.coursera.org/learn/machine-learning)** - The classic introduction to machine learning
+
+### Research & Papers
+- **[Papers With Code](https://paperswithcode.com/)** - Latest research with implementations
+- **[Distill](https://distill.pub/)** - Clear, visual explanations of ML research

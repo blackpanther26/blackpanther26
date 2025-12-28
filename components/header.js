@@ -34,12 +34,12 @@ export default function Header({ home }) {
             Home
           </Link>
           <span className={styles.separator}>|</span>
-          <Link href="/about" className={styles.navLink}>
-            About
+          <Link href="/blogs" className={styles.navLink}>
+            Blogs
           </Link>
           <span className={styles.separator}>|</span>
-          <Link href="/favorites" className={styles.navLink}>
-            Favorites
+          <Link href="/about" className={styles.navLink}>
+            About
           </Link>
         </nav>
       </div>
