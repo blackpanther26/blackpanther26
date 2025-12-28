@@ -62,10 +62,21 @@ Where:
 
 Let’s get concrete with the dimensions. Given:
 
-$x_t \in \mathbb{R}^{10 \times 1}$
-$h_{t-1} \in \mathbb{R}^{20 \times 1}$ 
-$W_r \in \mathbb{R}^{20 \times 10}$
-$U_r \in \mathbb{R}^{20 \times 20}$
+$$
+x_t \in \mathbb{R}^{10 \times 1}
+$$
+
+$$
+h_{t-1} \in \mathbb{R}^{20 \times 1}
+$$
+
+$$
+W_r \in \mathbb{R}^{20 \times 10}
+$$
+
+$$
+U_r \in \mathbb{R}^{20 \times 20}
+$$
 
 We compute the linear transformations:
 

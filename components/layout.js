@@ -18,7 +18,7 @@ export default function Layout({ children, home }) {
           crossOrigin="true"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
           rel="stylesheet"
         />
       </Head>
