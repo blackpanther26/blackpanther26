@@ -85,6 +85,70 @@ table tr:hover {
   background-color: var(--border-color);
 }
 
+/* Math equations - prevent overflow */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.katex {
+  font-size: 1em;
+}
+
+/* Code blocks */
+pre {
+  overflow-x: auto;
+  padding: 1rem;
+  background-color: var(--hover-bg);
+  border-radius: 4px;
+}
+
+code {
+  font-size: 0.9em;
+  word-wrap: break-word;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  table {
+    font-size: 0.8rem;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  table th,
+  table td {
+    padding: 0.5rem;
+    min-width: 100px;
+  }
+
+  .katex-display {
+    font-size: 0.9em;
+  }
+
+  img {
+    margin: 1rem auto;
+  }
+}
+
 .logo{
   padding-top: 1rem;
   font-size: 5rem !important;
