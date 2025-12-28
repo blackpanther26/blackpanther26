@@ -4,13 +4,13 @@ import Link from "next/link";
 import Header from "./header";
 import Footer from "./footer";
 
-export const siteTitle = "Portfolio website";
+export const siteTitle = "Priyanshu's portfolio";
 
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>❄️</text></svg>" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

@@ -3,7 +3,8 @@ import styles from "./header.module.css";
 import { useTheme } from "../contexts/ThemeContext";
 import { MdSunny } from "react-icons/md";
 import { FaMoon } from "react-icons/fa";
-import Latex from "react-latex-next";
+import { Snowflake } from "lucide-react";
+
 import "katex/dist/katex.min.css";
 
 const name = "Priyanshu Chahal";
@@ -16,7 +17,7 @@ export default function Header({ home }) {
       <div className={styles.profileSection}>
         <Link href="/">
           <div className="logo">
-            <Latex>{"$\\Sigma$"}</Latex>
+            <Snowflake size={80} />
           </div>
         </Link>
       </div>
