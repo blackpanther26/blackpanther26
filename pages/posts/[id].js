@@ -19,6 +19,12 @@ export default function Post({ postData }) {
     <Layout>
       <Head>
         <title>{postData.title}</title>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css"
+          integrity="sha384-yq4B9OBdI0rD03vwDn8VUAIq2m/gBBPRvFJvd+N6GDlV0E9h1V56MRHJ/VGZ4I5A"
+          crossOrigin="anonymous"
+        />
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
