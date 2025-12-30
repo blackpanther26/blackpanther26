@@ -181,7 +181,7 @@ The memory is largely preserved.
 
 ---
 
-5. Dependency Graph: The Order of Operations
+## 5. Dependency Graph: The Order of Operations
 
 It helps to visualize the GRU not just as a circuit, but as a dependency tree. We can't compute everything at once; there is a strict hierarchy.
 
