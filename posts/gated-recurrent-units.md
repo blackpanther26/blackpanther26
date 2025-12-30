@@ -320,13 +320,8 @@ Want to dive deeper? Here are the resources that helped me build this understand
 ### Deep Learning
 - **[Deep Learning for Computer Vision (UMich)](https://web.eecs.umich.edu/~justincj/teaching/eecs498/)** - Comprehensive course covering CNNs, RNNs, and modern architectures
 - **[CampusX Deep Learning](https://www.youtube.com/@campusx-official)** - Practical tutorials with clear explanations
-- **[Fast.ai](https://www.fast.ai/)** - Hands-on deep learning for practitioners
 
 ### Machine Learning Fundamentals
 - **[StatQuest](https://www.youtube.com/@statquest)** - Breaking down complex ML and statistics concepts
 - **[3Blue1Brown](https://www.3blue1brown.com/)** - Beautiful visual explanations of mathematical concepts
 - **[Andrew Ng's ML Course](https://www.coursera.org/learn/machine-learning)** - The classic introduction to machine learning
-
-### Research & Papers
-- **[Papers With Code](https://paperswithcode.com/)** - Latest research with implementations
-- **[Distill](https://distill.pub/)** - Clear, visual explanations of ML research
